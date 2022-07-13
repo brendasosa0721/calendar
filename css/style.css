@@ -1,63 +1,73 @@
+
+/*body for the calendar*/
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
-textarea{
+
+/* textarea inside de event edit session*/
+/* textarea{
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
+  color:black;
   border-left: 1px solid black;
   padding: 10px;
-}
+} */
 
+/*header session*/
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-color: lightskyblue;
   color: black;
-  border-radius: 0;
+  border-radius: 10px;
   border-bottom: 10px solid black;
 }
 
-.description{
+ .description{
   white-space: pre-wrap;
-}
+} 
 
-.time-block{
+
+
+.time-block{ /*timeblock session in the calendar*/
   text-align: center;
   border-radius: 15px;
+  
 }
 
-.row {
+.row { /*row style for the calendar*/
   white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
+  height: 60px;
+  border-top: 1px solid gray;
+  
 }
 
-.hour {
-  background-color: #ffffff;
+.hour { /*hours in the calendar*/
+  background-color:lightslategray;
   color: #000000;
   border-top: 1px dashed #000000;
+  font-weight: bold;
 }
 
-.past {
+.past { /*past color and style*/
   background-color: #d3d3d3;
   color: white;
 }
 
-.present {
+.present { /*present color and style*/
   background-color: #ff6961;
   color: white;
 }
 
-.future {
+.future {/*future color and style*/
   background-color: #77dd77;
   color: white;
 }
 
-.saveBtn {
+.saveBtn { /*save buttom session*/
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -65,9 +75,10 @@ textarea{
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn i:hover {/*save buttom session*/
   font-size: 20px;
   transition: all .3s ease-in-out;
+  color: green;
 }
 
 /*  MEDIA QUERY FOR TABLETS AND SMALLER DEVICES*/
