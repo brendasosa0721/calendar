@@ -8,7 +8,7 @@ body {
 
 
 /* textarea inside de event edit session*/
-/* textarea{
+ /*textarea{
   background: transparent;
   border: none;
   resize: none;
@@ -90,7 +90,7 @@ body {
 
 /*  MEDIA QUERY FOR TABLETS AND SMALLER DEVICES*/
 
-@media screen and (max-width: 968px), screen and (max-width:575px) {
+@media screen and (max-width: 760px), screen and (max-width:575px) {
   .row {
     height: auto;
     margin-top: 20px;
@@ -111,4 +111,4 @@ body {
     border: 0;
   }
   
-}
+} 
