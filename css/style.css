@@ -7,7 +7,7 @@ body {
 }
 
 
-/* textarea inside de event edit session*/
+/* textarea inside de event edit session*/ 
  /*textarea{
   background: transparent;
   border: none;
@@ -26,12 +26,19 @@ body {
   border-bottom: 10px solid black;
 }
 
+/*current day session in the jumbotron*/
+
+#currentDay{
+  color: red;
+}
  .description{
   white-space: pre-wrap;
 } 
 
 
-
+.description{
+color: #000000;
+}
 .time-block{ /*timeblock session in the calendar*/
   text-align: center;
   border-radius: 15px;
@@ -44,6 +51,7 @@ body {
   border-top: 1px solid gray;
   
 }
+/* hour style for each timeblock*/
 
 .hour { /*hours in the calendar*/
   background-color:lightslategray;
@@ -57,6 +65,7 @@ body {
 
  
 }
+/* colors for the time- block*/
 
 .past { /*past color and style*/
   background-color: #d3d3d3;
@@ -72,6 +81,7 @@ body {
   background-color: #77dd77;
   color: white;
 }
+
 
 .saveBtn { /*save buttom session*/
   border-left: 1px solid black;
