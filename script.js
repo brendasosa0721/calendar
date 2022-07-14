@@ -19,6 +19,32 @@
 // THEN the text for that event is saved in local storage
 // WHEN I refresh the page
 // THEN the saved events persist
+var pElement = document.querySelector("#currentDay");
 
 //Display today's day and date
-var currentDay = moment().format("MMMM Do YYYY, h:mm:ss a");
+var currentDay = moment().format("MMMM Do YYYY");
+console.log(currentDay)
+pElement.innerHTML = currentDay
+
+var currentHour = moment().hours()
+console.log(currentHour)
+
+var timeLoop =  document.querySelectorAll(".time-block")
+timeLoop.forEach(timeBlock => {
+    var timeID = timeBlock.getAttribute("id")
+    timeID = parseInt(timeID)
+    console.log(timeID)
+
+    timeID < currentHour
+    if ( timeID < currentHour){
+    timeBlock.children[1].classList.add("past")
+    }
+    else if(timeID == currentHour){
+        timeBlock.children[1].classList.add("present")
+    }else  {
+        timeBlock.children[1].classList.add("future")
+    }
+
+var storage = localStorage.getItem("8")
+console.log(storage)
+});
