@@ -6,6 +6,7 @@ Please see Stoy and Criteria for the challenge below.
 
 
 User Story
+
  AS AN employee with a busy schedule
  I WANT to add important events to a daily planner
  SO THAT I can manage my time effectively
@@ -29,6 +30,9 @@ THEN each time block is color-coded to indicate whether it is in the past,     p
 # Purpose
 The purpose of this website was to created a dynamic and functianl calendar where events can storage.
 # Website(Screenshot & Live URL)
+https://brendasosa0721.github.io/calendar/
+
+
 
 ![Screen Shot 2022-07-14 at 7 21 33 PM](https://user-images.githubusercontent.com/106204413/179117514-0f7c86b0-4900-49ff-aca3-f5e439e6e8f1.png)# Programs Used
 
