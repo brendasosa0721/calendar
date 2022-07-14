@@ -45,6 +45,16 @@ timeLoop.forEach(timeBlock => {
         timeBlock.children[1].classList.add("future")
     }
 
-var storage = localStorage.getItem("8")
+var storage = localStorage.getItem(timeID)
 console.log(storage)
+timeBlock.children[1].value = storage
+
+ timeBlock.children[2].addEventListener("click", function(){
+    console.log("click")
+
+    var text = timeBlock.children[1].value;
+    console.log(text)
+    localStorage.setItem(timeID , text)
+})
 });
+
